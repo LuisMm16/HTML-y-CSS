@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Tarea</title>
+</head>
+<body>
+    <form action="formulario_enviado.html" id="formulario_tarea" method="post">
+            <h2>Mi Formulario Tarea</h2><hr>
+            <fieldset>
+                <legend>Introduzca los datos aquí</legend>
+                <div>
+                <input type="text" required placeholder="Nombres"> <p></p>
+                <input type="text" required placeholder="Apellidos"> <p></p>
+                <input type="email" placeholder="Correo electrónico"> <p></p>
+                <input type="tel" name="phone_number" id="phone_number" placeholder="Número de teléfono"> <p></p>
+                <input type="text" name="address" id="adress" placeholder="Dirección"> <p></p>
+                <input type="submit" value="Enviar">
+                </div>
+            </fieldset>
+            <hr>
+
+            <h2>Tabla Creada</h2>
+            <fieldset>
+                <legend>Días de la semana</legend>
+                <div>
+                    <table border="1">
+                        <tr>
+                            <td>Producto</td>
+                            <td>Precio</td>
+                            <td>Producto</td>
+                            <td>Precio</td>
+                        </tr>
+                        <tr>
+                            <td>Leche</td>
+                            <td colspan="2">1.00</td>
+                            <td>Azúcar</td>
+                        </tr>
+                        <tr>
+                            <td>Leche</td>
+                            <td>1.00</td>
+                            <td>Azúcar</td>
+                            <td rowspan="2">2.00</td>
+                        </tr>
+                        <tr>
+                            <td>Leche</td>
+                            <td></td>
+                            <td>Azúcar</td>
+                        </tr>
+                    </table>
+                </div>
+            </fieldset>
+
+    </form>
+    
+</body>
+</html>
