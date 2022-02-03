@@ -1,0 +1,27 @@
+h1 {
+    color: blue;
+    background-color: rgb(183, 216, 218);
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+p {
+    color: brown;
+    background-color: aqua;
+}
+
+.miparrafo {
+    color: gray;
+    background-color: black;
+}
+
+div p {
+    color: green;
+    background-color: coral;
+}
+
+div p[class="miparrafo"] {
+    color: gold;
+    background-color: blue;
+}
