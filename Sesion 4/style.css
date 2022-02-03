@@ -1,0 +1,10 @@
+
+* {
+    color: green;
+}
+
+.miparrafo {
+    font-style: italic;
+    background-color: rgb(3, 17, 17);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
