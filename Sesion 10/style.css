@@ -1,0 +1,41 @@
+
+.container {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.midiv {
+    background-color: red;
+    height: 400px;
+    width: 400px;
+}
+
+.show-imagen {
+    position: absolute;
+    opacity: 0;
+    width: 400px;
+}
+
+.show-video {
+    position: absolute;
+    width: 400px;
+}
+
+@media screen AND (max-width:400px){
+    .midiv {
+        background-color: green;
+    }
+
+    .show-video {
+        opacity: 0;
+    }
+
+    .show-imagen {
+        opacity: 1;
+    }
+}
