@@ -1,0 +1,44 @@
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.midiv {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    transform: rotate(0deg);
+    transition: all 2s linear;
+}
+
+.midiv:hover, .midiv.active {
+    background-color: red;
+    transform: rotate(360deg);
+    transition: all 2s linear;
+}
+
+
+.midiv2 {
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    transition: all 1s ease-out;
+}
+
+.midiv2:hover, .midiv2.active {
+    transform: translate(100px);
+    transition: all 1s ease-in;
+    opacity: 0;
+}
